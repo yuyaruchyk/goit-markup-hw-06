@@ -584,38 +584,56 @@
 
           <div class="modal-field">
             <label class="label-text">Name</label>
-            <input
-              type="text"
-              name="user-name"
-              class="modal-input"
-              required
-              minlength="2"
-              maxlength="10"
-            />
+
+            <span class="input-wrapper">
+              <input
+                type="text"
+                name="user-name"
+                class="modal-input"
+                required
+                minlength="2"
+                maxlength="10"
+              />
+
+              <svg class="input-icon" width="12" height="12">
+                <use href="./images/icons.svg#icon-input-name"></use>
+              </svg>
+            </span>
           </div>
 
           <div class="modal-field">
             <label class="label-text">Phone</label>
 
-            <input
-              type="tel"
-              name="user-tel"
-              class="modal-input"
-              required
-              pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
-              title="+380 (96) 111-11-11"
-            />
+            <span class="input-wrapper">
+              <input
+                type="tel"
+                name="user-tel"
+                class="modal-input"
+                required
+                pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
+                title="+380 (96) 111-11-11"
+              />
+              <svg class="input-icon" width="12" height="12">
+                <use href="./images/icons.svg#icon-input-tel"></use>
+              </svg>
+            </span>
           </div>
 
           <div class="modal-field">
             <label class="label-text">Email</label>
-            <input
-              type="email"
-              name="user-email"
-              class="modal-input"
-              required
-              title="yourmail@gmail.com"
-            />
+
+            <span class="input-wrapper">
+              <input
+                type="email"
+                name="user-email"
+                class="modal-input"
+                required
+                title="yourmail@gmail.com"
+              />
+              <svg class="input-icon" width="12" height="12">
+                <use href="./images/icons.svg#icon-input-email"></use>
+              </svg>
+            </span>
           </div>
 
           <div class="text-area-wrapper">
