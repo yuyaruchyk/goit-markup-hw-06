@@ -786,5 +786,34 @@ button {
   color: rgba(46, 47, 66, 0.4);
 }
 
+.label-check-text {
+  
+  
+  margin-bottom: 24px;
+  
+}
+
+.icon-check-box  {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 8px;
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+    fill: transparent;
+  
+}
+.modal-checkbox:checked + .label-check-text .icon-check-box {
+  
+  background-color: var(--color-hover-focus);
+  border: none;
+  fill: #F4F4FD;
+
+
+}
+
+
  {
 }

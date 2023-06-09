@@ -645,12 +645,26 @@
             ></textarea>
           </div>
 
-          <input id="user-policy" type="checkbox" name="user-policy" value="" />
-          <label for="user-policy" class="label-text"
-            >I accept the terms and conditions of the
-            <a href="">Privacy Policy</a></label
-          >
-          <button type="submit">Send</button>
+          <div>
+            <input
+              id="user-privacy"
+              type="checkbox"
+              name="user-privacy"
+              class="modal-checkbox visually-hidden"
+              value="true"
+            />
+
+            <label for="user-privacy" class="label-check-text label-text">
+              <span class="icon-check-box">
+                <svg class="icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-icon-privacy"></use></svg
+              ></span>
+              I accept the terms and conditions of the
+              <a href="">Privacy Policy</a>
+            </label>
+          </div>
+
+          <button type="submit" class="hero-btn page-btn">Send</button>
         </form>
       </div>
     </div>
