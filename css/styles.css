@@ -530,10 +530,7 @@ button {
 .form-footer {
   display: flex;
   gap: 24px;
-  
 }
-
-
 
 .footer-subscribe {
   margin-left: 80px;
@@ -551,38 +548,31 @@ button {
   padding-left: 16px;
   min-width: 264px;
   height: 40px;
-  border: 1px solid #FFFFFF;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    border-radius: 4px;
-    background-color: transparent;
-    color: var(--color-title-white);
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid #ffffff;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
+  color: var(--color-title-white);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
-
-  }
-
-  .footer-input:focus {
-      outline: none;
-      border-color: #4d5ae5;
-    }
-
+.footer-input:focus {
+  outline: none;
+  border-color: #4d5ae5;
+}
 
 .subs-btn {
-  
   display: flex;
   align-items: center;
   justify-content: center;
-  
+
   margin-left: 24px;
   min-width: 165px;
   height: 40px;
-
-
 }
 .icon-send {
   fill: var(--color-title-white);
   margin-left: 16px;
-  
 }
 
 /*-----------Portfolio------*/
@@ -776,23 +766,18 @@ button {
 }
 
 .modal-field {
-
-margin-bottom: 8px;
+  margin-bottom: 8px;
 }
-
 
 .modal-form-text {
   display: block;
-  
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-
   text-align: center;
   letter-spacing: 0.02em;
-
   color: var(--secondary-text-color);
-  margin-top: 48px;
   margin-bottom: 16px;
 }
 
@@ -845,7 +830,7 @@ margin-bottom: 8px;
   display: block;
   width: 100%;
   height: 120px;
-  
+
   padding: 8px 16px;
   resize: none;
   font-size: 12px;
@@ -854,19 +839,16 @@ margin-bottom: 8px;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.16;
-  
+
   color: rgba(46, 47, 66, 0.4);
   background-color: transparent;
 }
 
 .check-wrapper {
-  
-  
   margin-bottom: 24px;
-  
 }
 
-.icon-check-box  {
+.icon-check-box {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -874,25 +856,18 @@ margin-bottom: 8px;
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
-    border-radius: 2px;
-    fill: transparent;
-    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1),
-      border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-      fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
+  border-radius: 2px;
+  fill: transparent;
+  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-checkbox:checked + .label-check-text .icon-check-box {
-  
   background-color: var(--color-hover-focus);
   border: none;
-  fill: #F4F4FD;
-
-
+  fill: #f4f4fd;
 }
 
 .check-link {
-  color: var(--logo-text-color)
+  color: var(--logo-text-color);
 }
-
-
- 
