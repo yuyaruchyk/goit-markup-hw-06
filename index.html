@@ -568,8 +568,8 @@
 
         <div class="footer-subscribe">
           <p class="social-media-text-footer">Subscribe</p>
-          <form>
-            <label>
+          <form class="form-footer">
+            <label class="label-footer">
               <input
                 type="email"
                 name="user-email"
@@ -579,31 +579,29 @@
                 placeholder="E-mail"
               />
             </label>
-          </form>
+          
 
           <button type="submit" class="subs-btn hero-btn page-btn">
             Subscribe
-            <svg class="icon-send" width="24" height="20">
+            <svg class="icon-send" width="24" height="24">
               <use href="./images/icons.svg#icon-icon-send"></use>
             </svg>
           </button>
         </div>
+      </form>
       </div>
     </footer>
 
     <!--Modal-->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal-window">
-        <button type="button" class="modal-close-btn" data-modal-close>
-          <svg class="modal-close-btn-icon" width="8" height="8">
-            <use href="./images/icons.svg#icon-modal-btn"></use>
-          </svg>
-        </button>
 
-        <form class="modal-form">
-          <p class="modal-form-text">
+        <p class="modal-form-text">
             Leave your contacts and we will call you back
           </p>
+
+ <form class="modal-form">
+          
 
           <div class="modal-field">
             <label class="label-text">Name</label>
@@ -689,6 +687,14 @@
 
           <button type="submit" class="hero-btn page-btn">Send</button>
         </form>
+
+        <button type="button" class="modal-close-btn" data-modal-close>
+          <svg class="modal-close-btn-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-modal-btn"></use>
+          </svg>
+        </button>
+
+       
       </div>
     </div>
     <script src="./js/modal.js"></script>
