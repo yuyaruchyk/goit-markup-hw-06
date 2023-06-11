@@ -606,9 +606,9 @@
 
         <form class="modal-form">
           <div class="modal-field">
-            <label class="label-text">Name</label>
+            <label for="user-name" class="label-text">Name</label>
 
-            <span class="input-wrapper">
+            <div class="input-wrapper">
               <input
                 type="text"
                 name="user-name"
@@ -621,13 +621,13 @@
               <svg class="input-icon" width="12" height="12">
                 <use href="./images/icons.svg#icon-input-name"></use>
               </svg>
-            </span>
+            </div>
           </div>
 
           <div class="modal-field">
             <label class="label-text">Phone</label>
 
-            <span class="input-wrapper">
+            <div class="input-wrapper">
               <input
                 type="tel"
                 name="user-tel"
@@ -639,13 +639,13 @@
               <svg class="input-icon" width="12" height="12">
                 <use href="./images/icons.svg#icon-input-tel"></use>
               </svg>
-            </span>
+            </div>
           </div>
 
           <div class="modal-field">
             <label class="label-text">Email</label>
 
-            <span class="input-wrapper">
+            <div class="input-wrapper">
               <input
                 type="email"
                 name="user-email"
@@ -656,19 +656,20 @@
               <svg class="input-icon" width="12" height="12">
                 <use href="./images/icons.svg#icon-input-email"></use>
               </svg>
-            </span>
+            </div>
           </div>
 
           <div class="text-area-wrapper">
-            <label for="user-text" class="label-text">Comment</label>
+            <label for="user-comment" class="label-text">Comment</label>
             <textarea
-              name="user-text"
-              id="user-text"
+              name="user-comment"
+              id="user-comment"
               class="modal-comment modal-input"
+              placeholder="Text input"
             ></textarea>
           </div>
 
-          <div>
+          <div class="check-wrapper">
             <input
               id="user-privacy"
               type="checkbox"
@@ -683,7 +684,7 @@
                   <use href="./images/icons.svg#icon-icon-privacy"></use></svg
               ></span>
               I accept the terms and conditions of the
-              <a href="">Privacy Policy</a>
+              <a class="check-link" href="">Privacy Policy</a>
             </label>
           </div>
 
